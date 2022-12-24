@@ -127,3 +127,45 @@
     filter: invert(1);
   }
 }
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.container input {
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.buttonLink {
+  background-color: #666;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.table {
+  border: 1px solid #444;
+  border-collapse: collapse;
+}
+
+.table thead tr th,
+.table tbody tr td {
+  padding: 10px 15px;
+  border: 1px solid #444;
+}
+
+.table tbody tr td button {
+  margin: 0 5px;
+}
